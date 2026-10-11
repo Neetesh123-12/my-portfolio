@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Neetesh's interactive 3D developer portfolio.">
+    <title>Neetesh | 3D Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">N<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-contact">Contact ↗</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    AVAILABLE FOR LEARNING & COLLABORATION
+                </p>
+
+                <h1>
+                    Building the<br>
+                    <span class="gradient-text">Digital Future.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Hi, I'm <strong>Neetesh</strong>, a B.Tech Computer Science
+                    student exploring web development, programming and
+                    cybersecurity. I turn ideas into interactive digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-primary">
+                        Explore Projects ↗
+                    </a>
+                    <a href="#contact" class="button button-secondary">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="hero-meta">
+                    <div>
+                        <strong>01</strong>
+                        <span>Creative Mindset</span>
+                    </div>
+                    <div>
+                        <strong>02</strong>
+                        <span>Always Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal" id="heroVisual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="floating-label label-top">
+                    <span>✦</span> Creative Developer
+                </div>
+
+                <div class="cube-scene">
+                    <div class="cube" id="cube">
+                        <div class="cube-face front">N.</div>
+                        <div class="cube-face back">CODE</div>
+                        <div class="cube-face right">3D</div>
+                        <div class="cube-face left">IDEAS</div>
+                        <div class="cube-face top">CREATE</div>
+                        <div class="cube-face bottom">BUILD</div>
+                    </div>
+                </div>
+
+                <div class="floating-label label-bottom">
+                    <span>⌘</span> Turning ideas into reality
+                </div>
+
+                <div class="visual-caption">DESIGN · CODE · INNOVATE</div>
+                
+<div class="hero-photo">
+    <div class="photo-frame">
+        <img
+            src="images/profile.jpg"
+            alt="My professional portrait"
+        />
+    </div>
+    <div class="photo-caption">
+        <span class="online-dot"></span>
+        COMPUTER SCIENCE STUDENT
+    </div>
+</div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>Curiosity meets <span class="gradient-text">technology.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">⌘</div>
+                    <h3>Who I Am</h3>
+                    <p>
+                        I'm a Computer Science student who enjoys exploring
+                        technology, solving problems and building projects
+                        that help me learn by doing.
+                    </p>
+                </article>
+
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">✦</div>
+                    <h3>My Interests</h3>
+                    <p>
+                        Web development, Python, Java, user interface design
+                        and cybersecurity fundamentals are areas I'm
+                        interested in exploring.
+                    </p>
+                </article>
+
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">↗</div>
+                    <h3>My Goal</h3>
+                    <p>
+                        To become a skilled developer, build meaningful
+                        projects, contribute to open source and keep improving
+                        my technical skills.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Skills I'm <span class="gradient-text">developing.</span></h2>
+                <p class="section-description">
+                    A growing set of tools and technologies I use while learning.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="glass-card skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-icon">🌐</span>
+                        <span class="skill-category">WEB</span>
+                    </div>
+                    <h3>HTML & CSS</h3>
+                    <p>Page structure, responsive layouts and styling.</p>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="75"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-icon">⚡</span>
+                        <span class="skill-category">WEB</span>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive interfaces and dynamic behaviour.</p>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="55"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-icon">🐍</span>
+                        <span class="skill-category">CODE</span>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and automation basics.</p>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="50"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-icon">☕</span>
+                        <span class="skill-category">CODE</span>
+                    </div>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming and problem solving.</p>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-level="45"></div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="skill-note">
+                * Progress bars are example values. Change them to reflect your actual skills.
+            </p>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">SELECTED WORK</p>
+                <h2>Ideas becoming <span class="gradient-text">reality.</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-art art-one">
+                        <span class="art-symbol">N<span>.</span></span>
+                        <span class="art-caption">01 / PORTFOLIO</span>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">WEB DEVELOPMENT</p>
+                        <h3>3D Portfolio</h3>
+                        <p>
+                            An interactive personal website featuring
+                            motion effects, a 3D cube and responsive layouts.
+                        </p>
+                        <div class="tag-list">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a class="project-link" href="#contact">
+                            View project details <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-art art-two">
+                        <span class="shield">⬡</span>
+                        <span class="art-caption">02 / SECURITY</span>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">CYBERSECURITY</p>
+                        <h3>Password Checker</h3>
+                        <p>
+                            A learning project that evaluates password
+                            characteristics and suggests improvements.
+                        </p>
+                        <div class="tag-list">
+                            <span>Python</span><span>Security Basics</span>
+                        </div>
+                        <a class="project-link" href="#contact">
+                            View project details <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-art art-three">
+                        <span class="code-symbol">&lt;/&gt;</span>
+                        <span class="art-caption">03 / LEARNING</span>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">OPEN SOURCE</p>
+                        <h3>Code Learning Hub</h3>
+                        <p>
+                            A planned collection of programming notes,
+                            beginner examples and useful learning resources.
+                        </p>
+                        <div class="tag-list">
+                            <span>GitHub</span><span>Markdown</span>
+                        </div>
+                        <a class="project-link" href="#contact">
+                            View project details <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <p class="skill-note">
+                These are portfolio examples and ideas, not links to completed projects.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="contact-box reveal">
+                <p class="eyebrow">HAVE AN IDEA?</p>
+                <h2>Let's build something<br><span class="gradient-text">awesome.</span></h2>
+                <p>
+                    Have a project idea, want to collaborate, or just want
+                    to connect? I'd love to hear from you.
+                </p>
+
+                <a class="button button-primary"
+                   href="mailto:YOUR_EMAIL@example.com">
+                    Say Hello ↗
+                </a>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">N<span>.</span></a>
+        <p>Designed & built with curiosity by Neetesh.</p>
+        <p>© <span id="year"></span> All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+    
+<div class="social-links">
+    <a href="https://www.instagram.com/bfa_.neetesh/"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Visit my Instagram">
+        📸 Instagram ↗
+    </a>
+
+    <a href="https://www.linkedin.com/in/Neetesh-Neetesh-bansal-12345678/"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Visit my LinkedIn">
+        💼 LinkedIn ↗
+    </a>
+
+    <a href="https://github.com/YOUR_USERNAME"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Visit my GitHub">
+        💻 GitHub ↗
+    </a>
+
+    <a href="mailto:neeteshbansal@gmail.com"
+       aria-label="Send me an email">
+        ✉️ Email Me ↗
+    </a>
+</div>
+
+</body>
+</html>
